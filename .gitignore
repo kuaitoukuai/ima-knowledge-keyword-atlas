@@ -1,0 +1,39 @@
+# === 中间产物（跑流水线时生成，不要提交） ===
+list.jsonl
+md/
+index/
+digest/
+expand/
+merged.json
+*_fetch_log.txt
+fetch_log.txt
+_jobs.tsv
+_one.sh
+_one.bat
+*.xlsx
+~$*.xlsx
+
+# === 凭据与本地配置（绝对不要提交） ===
+.env
+.env.*
+*.key
+*.pem
+client_id
+api_key
+config/credentials.json
+
+# === 系统与编辑器 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
